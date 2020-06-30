@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "polystory.xlx.pl/static/css/main.23583a95.chunk.css",
+    "main.js": "polystory.xlx.pl/static/js/main.77b5e6ce.chunk.js",
+    "main.js.map": "polystory.xlx.pl/static/js/main.77b5e6ce.chunk.js.map",
+    "runtime-main.js": "polystory.xlx.pl/static/js/runtime-main.dea4efd9.js",
+    "runtime-main.js.map": "polystory.xlx.pl/static/js/runtime-main.dea4efd9.js.map",
+    "static/js/2.3b39b13a.chunk.js": "polystory.xlx.pl/static/js/2.3b39b13a.chunk.js",
+    "static/js/2.3b39b13a.chunk.js.map": "polystory.xlx.pl/static/js/2.3b39b13a.chunk.js.map",
+    "index.html": "polystory.xlx.pl/index.html",
+    "precache-manifest.481a99055e70de2e3230f104c85f7368.js": "polystory.xlx.pl/precache-manifest.481a99055e70de2e3230f104c85f7368.js",
+    "service-worker.js": "polystory.xlx.pl/service-worker.js",
+    "static/css/main.23583a95.chunk.css.map": "polystory.xlx.pl/static/css/main.23583a95.chunk.css.map",
+    "static/js/2.3b39b13a.chunk.js.LICENSE.txt": "polystory.xlx.pl/static/js/2.3b39b13a.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "polystory.xlx.pl/static/media/crown.ed28accb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dea4efd9.js",
+    "static/js/2.3b39b13a.chunk.js",
+    "static/css/main.23583a95.chunk.css",
+    "static/js/main.77b5e6ce.chunk.js"
+  ]
+}

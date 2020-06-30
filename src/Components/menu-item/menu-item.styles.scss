@@ -1,0 +1,86 @@
+.menu-item {
+    min-width: 30%;
+    height: 30vh;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin: 0 0 15px;
+    overflow: hidden;
+
+    opacity: 1;
+      transition: opacity .25s ease-out;
+      -moz-transition: opacity .25s ease-out;
+      -webkit-transition: opacity .25s ease-out;
+      -o-transition: opacity .25s ease-out;   
+    &:hover  {
+
+      opacity: .8;
+      transition: opacity .25s ease-out;
+      -moz-transition: opacity .25s ease-out;
+      -webkit-transition: opacity .25s ease-out;
+      -o-transition: opacity .25s ease-out;
+
+      .content {
+
+        opacity:1;
+      }
+    }
+    &.large {
+      height: 50vh;
+    }
+    &:first-child {
+      margin-right: 7.5px;
+      
+    }
+  
+    &:last-child {
+      margin-left: 7.6px;
+    }
+    
+    .backgroundImage {
+      width:100%;
+      height:100%;
+      background-size: cover;
+      background-position: center;
+    
+      &:hover {
+        transform: scale(1.3);
+        transition: all 4s ease-out;
+        -moz-transition: all 4s ease-out;
+        -webkit-transition: all 4s ease-out;
+        -o-transition: all 4s ease-out;
+      }
+    }
+    .content {
+      height: 90px;
+      padding: 10px 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid #fff;
+      background-color: whitesmoke;
+      opacity: .7;
+      position: absolute;
+
+      
+      .title {
+        font-weight: bold;
+        margin-bottom: 6px;
+        font-size: 22px;
+        color: #aaa;
+        opacity: 1;
+      }
+  
+      .subtitle {
+        font-weight: lighter;
+        font-size: 16px;
+        color: #aaa; 
+        opacity: 1;
+      }
+
+    }
+   
+  }
